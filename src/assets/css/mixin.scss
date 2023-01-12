@@ -1,0 +1,29 @@
+@mixin text-ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex-around($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin round($d) {
+  height: $d;
+  width: $d;
+  border-radius: 50%;
+}
+
+@mixin center($h) {
+  text-align: center;
+  height: $h;
+  line-height: $h;
+}

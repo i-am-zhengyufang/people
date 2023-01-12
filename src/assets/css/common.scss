@@ -1,0 +1,70 @@
+.border {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 2px solid $border;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    bottom: -2px;
+    top: -2px;
+    left: 10%;
+    border-bottom: 2px solid $border-hover;
+    border-top: 2px solid $border-hover;
+    transition: all 0.5s;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: -2px;
+    right: -2px;
+    top: 10%;
+    border-left: 2px solid $border-hover;
+    border-right: 2px solid $border-hover;
+    transition: all 0.5s;
+  }
+  &:hover {
+    box-shadow: -5px 0px 2px rgba(255, 255, 255, 0.1),
+      /*左边阴影*/ 0px -5px 2px rgba(255, 255, 255, 0.1),
+      /*上边阴影*/ 5px 0px 2px rgba(255, 255, 255, 0.1),
+      /*右边阴影*/ 0px 5px 2px rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  &:hover::before {
+    width: 0%;
+  }
+  &:hover::after {
+    height: 0%;
+  }
+}
+
+.title {
+  position: relative;
+  padding-left: 25px;
+  color: $emphasis-color;
+  font-size: 18px;
+  font-family: SimSun;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 10px;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    height: 15px;
+    top: 10px;
+    width: 8px;
+    border-radius: 13px;
+    background: $red;
+  }
+}
+
+.analysis-text {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: $theme-color;
+}

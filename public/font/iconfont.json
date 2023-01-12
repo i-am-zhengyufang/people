@@ -1,0 +1,65 @@
+{
+  "id": "3272301",
+  "name": "people",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2578230",
+      "name": "政策解读",
+      "font_class": "policy",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "16520419",
+      "name": "详细信息",
+      "font_class": "detail",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8817342",
+      "name": "数据分析",
+      "font_class": "analyse",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15394214",
+      "name": "数据库",
+      "font_class": "database",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1621431",
+      "name": "全屏",
+      "font_class": "full",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "3987317",
+      "name": "退出全屏",
+      "font_class": "exitFull",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "6264189",
+      "name": "返回",
+      "font_class": "return",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "8288808",
+      "name": "主页",
+      "font_class": "home",
+      "unicode": "e83a",
+      "unicode_decimal": 59450
+    }
+  ]
+}
